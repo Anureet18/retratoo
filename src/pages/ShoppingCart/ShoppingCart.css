@@ -1,0 +1,14 @@
+.scart{
+    background-color: #000707;
+    color:white ;
+}
+
+.cartbtn{
+    background-color: #000707;
+    box-shadow: 0 4px 8px var(--light);
+    padding: 14px 24px;
+    font-size: 18px;
+}
+.scart .cardbtn:hover{
+    background-color: var(--dark);
+}

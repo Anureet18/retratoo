@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--dark);
+    height: 50px;
+    padding: 0 40px;
+    box-shadow: 0 4px 8px var(--light);
+    font-family:"Jost" ;
+}
+.icon{
+    display: flex;  
+}
+.icon-fa{
+    color: var(--light2);
+    font-size: 20px;
+    cursor: pointer; 
+    padding: 5px 30px; 
+    background-color: var(--dark);
+}
+.icon a{
+    text-decoration: none;
+}
+.icon-fa:hover{
+   box-sizing: border-box;
+   border: inset white 0.5px;
+}
