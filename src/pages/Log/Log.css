@@ -1,5 +1,5 @@
-.log{
-  background-color: rgb(0, 0, 0);
+body{
+    background: var(--background);
 }
 .logimg{
     box-shadow: 0 8px 12px var(--light);
@@ -20,7 +20,7 @@
     width: 50%;
 }
 .logform .logbtn{
-    width: 50%;
+    width: 100%;
     background-color: var(--main-color);
     border: none;
     box-shadow: 0 4px 8px var(--light);

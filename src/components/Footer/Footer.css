@@ -3,7 +3,7 @@
     font-family: "Jost";
     background-color: var(--dark);
     color: white;
-    padding:3rem 4rem ;  
+    padding:6rem 7rem ;  
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;
 }
@@ -14,7 +14,6 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
-    
 }
 .foot{
     display: flex;

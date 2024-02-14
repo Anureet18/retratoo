@@ -1,15 +1,12 @@
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--dark);
     height: 50px;
     padding: 0 40px;
-    box-shadow: 0 4px 8px var(--light);
-    font-family:"Jost" ;
-}
-.icon{
-    display: flex;  
+    box-shadow: 0 4px 8px var(--dark);
+    font-family: "Jost";
 }
 .icon-fa{
     color: var(--light2);
@@ -24,4 +21,45 @@
 .icon-fa:hover{
    box-sizing: border-box;
    border: inset white 0.5px;
+}
+.icon {
+    display: flex;
+    position: relative; /* Add position relative for positioning the menu */
+}
+
+.menu ul { 
+    height: calc(100vh - 60px);
+    z-index: 1;
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background-color: var(--dark);  
+}
+.menu ul li{
+    font-family: Garnett, sans-serif;
+    font-weight: 400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: none;
+}
+.navbar .menu ul a{
+    color: none;
+}
+.navbar .menu.active ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    -webkit-text-stroke: 0.1vw var(--main-color);
+    color: var(--dark);
+}
+.navbar .menu ul li:hover{
+    color: var(--light2);
+    -webkit-text-stroke: 0.3vw var(--light2);
+}
+.menu:hover {
+    box-sizing: border-box;
+    border: inset white 0.5px;
 }

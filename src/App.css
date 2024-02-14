@@ -4,12 +4,16 @@
 *{
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 :root {
   --main-color: #0a9391;
   --dark: #043736;
   --light: #0fd7d4;
   --light2: #7cfffd;
+  /* --background: linear-gradient(to right,#780206, #061161); */
+  --background: linear-gradient(to right,#006663, #111111);
+  --hero: linear-gradient(to right,#06dcd5, #111111);
 }
 /* :root {
   --main-color: #0a9391;
@@ -19,6 +23,7 @@
 } */
 :root{
   --padding-top: 180px;
+  --margin: 0 180px;
 }
 .fade-in {
   opacity: 0;
@@ -39,5 +44,13 @@
   }
   to {
      width: 100%;
+  }
+}
+@keyframes rotateGallery {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
   }
 }
